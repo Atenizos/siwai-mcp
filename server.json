@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Atenizos/siwai",
+  "title": "SIWAI",
+  "description": "Chart-pattern setups, screener, 13F funds, news and calendars for stocks, crypto, forex and more.",
+  "version": "1.5.0",
+  "websiteUrl": "https://siwai.app/docs/api",
+  "repository": {
+    "url": "https://github.com/Atenizos/siwai-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://siwai.app/favicon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://siwai.app/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer siwai_... API key from SIWAI Account settings > API keys. Optional for clients that complete MCP OAuth.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
