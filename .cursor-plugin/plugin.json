@@ -1,0 +1,11 @@
+{
+  "name": "siwai",
+  "version": "1.5.0",
+  "description": "SIWAI remote MCP server: chart-pattern setups, screener, 13F fund holdings, ticker fundamentals, news and economic/earnings/dividend calendars for stocks, crypto, indices, commodities and forex. Read-only except watchlist replace. Requires a paid SIWAI account (OAuth sign-in).",
+  "author": { "name": "SIWAI", "email": "contact@siwai.app" },
+  "homepage": "https://siwai.app/docs/api",
+  "repository": "https://github.com/Atenizos/siwai-mcp",
+  "license": "MIT",
+  "keywords": ["trading", "stocks", "crypto", "forex", "technical-analysis", "chart-patterns", "screener", "13f", "market-data"],
+  "logo": "logo.png"
+}

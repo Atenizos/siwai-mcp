@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "siwai": {
+      "type": "http",
+      "url": "https://siwai.app/api/mcp"
+    }
+  }
+}

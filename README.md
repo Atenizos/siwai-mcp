@@ -42,7 +42,9 @@ The API and MCP server are included with a paid SIWAI subscription. See
 **Claude (claude.ai / Desktop), ChatGPT and other OAuth clients:** add a custom connector
 with URL `https://siwai.app/api/mcp` and sign in when asked.
 
-**Cursor** (`.cursor/mcp.json`):
+[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=siwai&config=eyJ1cmwiOiJodHRwczovL3Npd2FpLmFwcC9hcGkvbWNwIn0=)
+
+**Cursor** with an API key instead of OAuth (`.cursor/mcp.json`):
 
 ```json
 {
